@@ -153,7 +153,7 @@ if __name__ == "__main__":
             moja_restauracja.wyswietl_rezerwacje()
 
         elif wybor == "4":
-            print("\n--- SYMULATOR PŁATNOŚCI (POLIMORFIZM) ---")
+            print("\n--- SYMULATOR PŁATNOŚCI ---")
             try:
                 kwota = float(input("Podaj kwota do zaplaty (np. 120.50): "))
                 print("Wybierz forme platnosci:")
